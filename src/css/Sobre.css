@@ -1,0 +1,26 @@
+#containerSobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 9rem;
+    margin: 2rem 0 2rem 0;
+}
+
+#textSobre {
+    width: 420px;
+    font-family: var(--fontFamily);
+    line-height: 30px;
+    color: #fff;
+}
+
+#textSobre h1 {
+    font-size: 2.5rem;
+}
+
+#textSobre p {
+    font-size: 1.3rem;
+}
+
+#imgSobre {
+    width: 500px;
+}

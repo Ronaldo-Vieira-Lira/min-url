@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #172026;
+}
+header h1 {
+    color: #F2F2F2;
+    font: 3.3rem var(--fontFamily);
+    font-weight: 600;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+header h1:hover {
+    filter: drop-shadow( 1px 1px 2px #89D99D);
+}

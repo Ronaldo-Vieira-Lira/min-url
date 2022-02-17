@@ -10,7 +10,7 @@
 
 .caixaMotivo:hover {
     color: #000;
-    background-color: #253B40;
+    background-color: #282C34;
 }
 
 
@@ -20,6 +20,7 @@
 }
 
 .areaTextMotivo h2 {
+    color: var(--colorDistaque);
     text-align: center;
     margin: .7rem 0 .7rem 0;
 }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    background-color: #012626;
+    background-color: #282C34;
     padding: 4rem;
     width: 100%;
 }
@@ -32,10 +32,12 @@
     font-family: var(--fontFamily);
     cursor: pointer;
     transition: all .4s;
-    color: #f2f2f2;
-    background: linear-gradient( 45deg,#9be15d 0%,#00e3ae 100%);
+    color: #000000;
+    background: var(--colorDistaque);
 }
 
 #caixaReceptor button:hover {
     filter: drop-shadow(0 0 5px #03A696);
 }
+
+/* linear-gradient( 45deg,#9be15d 0%,#00e3ae 100%) */

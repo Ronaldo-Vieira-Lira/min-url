@@ -1,0 +1,22 @@
+.caixaMotivo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: .5rem;
+}
+.areaTextMotivo {
+    width: 240px;
+    font-family: var(--fontFamily);
+}
+
+.areaTextMotivo h2 {
+    text-align: center;
+    margin: .7rem 0 .7rem 0;
+}
+
+.areaTextMotivo p {
+    line-height: 24px;
+    text-align: center;
+}

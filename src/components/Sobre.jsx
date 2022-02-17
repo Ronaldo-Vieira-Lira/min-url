@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Sobre.css";
-import ImgSobre from "../imagens/encurta.svg";
+import ImgSobre from "../imagens/imgSobre.svg";
 
 export default function Sobre() {
     return (

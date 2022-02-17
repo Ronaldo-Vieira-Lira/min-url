@@ -1,10 +1,12 @@
 footer {
+    width: 100%;
     text-align: center;
-    margin: 2rem;
+    padding: 2rem;
     font-family: var(--fontFamily);
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.267));
 }
 
 #eu a {
     text-decoration: none;
-    color: #FAB400;
+    color: var(--colorDistaque);
 }

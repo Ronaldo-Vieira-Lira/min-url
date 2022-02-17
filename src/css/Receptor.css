@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    background-color: #1A2526;
+    background-color: #012626;
     padding: 4rem;
     width: 100%;
 }
@@ -33,16 +33,9 @@
     cursor: pointer;
     transition: all .4s;
     color: #f2f2f2;
-    background: linear-gradient(90deg, rgba(3,166,120,1) 0%, rgba(2,115,94,1) 35%, rgba(1,64,64,1) 100%);
+    background: linear-gradient( 45deg,#9be15d 0%,#00e3ae 100%);
 }
 
 #caixaReceptor button:hover {
     filter: drop-shadow(0 0 5px #03A696);
 }
-/*     
-    btn
-
-    background: linear-gradient( 45deg,#9be15d 0%,#00e3ae 100%);
-    box-shadow: 0 4px 10px #ffe7ec!important 
-
-*/

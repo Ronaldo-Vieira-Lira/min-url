@@ -3,7 +3,11 @@ footer {
     text-align: center;
     padding: 2rem;
     font-family: var(--fontFamily);
-    background: linear-gradient(transparent, rgba(255, 255, 255, 0.267));
+    background: linear-gradient(transparent, rgba(255, 255, 255, 0.11));
+}
+
+footer h2 {
+    font-size: 1.3rem;
 }
 
 #eu a {

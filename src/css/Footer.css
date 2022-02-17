@@ -1,0 +1,10 @@
+footer {
+    text-align: center;
+    margin: 2rem;
+    font-family: var(--fontFamily);
+}
+
+#eu a {
+    text-decoration: none;
+    color: #FAB400;
+}

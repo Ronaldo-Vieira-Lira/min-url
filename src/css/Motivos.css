@@ -5,7 +5,15 @@
     align-items: center;
     border-radius: 5px;
     padding: .5rem;
+    transition: all .6s;
 }
+
+.caixaMotivo:hover {
+    color: #000;
+    background-color: #253B40;
+}
+
+
 .areaTextMotivo {
     width: 240px;
     font-family: var(--fontFamily);

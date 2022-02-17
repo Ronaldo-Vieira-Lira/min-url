@@ -1,9 +1,11 @@
 import React from "react";
+import "./css/App.css";
+
 import Header from "./components/Header";
 import Motivos from "./components/Motivos";
 import ReceptorURL from "./components/ReceptosURL";
 import Sobre from "./components/Sobre";
-import "./css/App.css";
+import Footer from "./components/Footer";
 
 import Free from "./imagens/free.svg";
 import Link from "./imagens/link.svg";
@@ -12,7 +14,7 @@ import Cadeado from "./imagens/cadeado.svg";
 
 export default function App() {
     return (
-        <>
+        <div id="container">
             <Header />
             <Sobre />
             <ReceptorURL />
@@ -34,6 +36,7 @@ export default function App() {
                     title="Seguro"
                     descricao="Usamos protocolo https com criptografia de dados"/>
             </div>
-        </>
+            <Footer />
+        </div>
     )
 };

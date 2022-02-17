@@ -3,16 +3,13 @@ header {
     justify-content: center;
     align-items: center;
     height: 80px;
-    background-color: #172026;
+    width: 100%;
+    background-color: #1A2526;
 }
 header h1 {
-    color: #F2F2F2;
-    font: 3.3rem var(--fontFamily);
+    color: var(--colorDistaque);
+    font: 3.3rem 'Syne Tactile', cursive;
     font-weight: 600;
     transition: all .5s;
     cursor: pointer;
-}
-
-header h1:hover {
-    filter: drop-shadow( 1px 1px 2px #89D99D);
 }

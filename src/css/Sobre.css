@@ -1,9 +1,10 @@
 #containerSobre {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 9rem;
-    margin: 2rem 0 2rem 0;
+    gap: 20rem;
+    padding: 1rem;
+    width: 100%;
 }
 
 #textSobre {
@@ -25,4 +26,49 @@
 
 #imgSobre {
     width: 500px;
+}
+
+@media(max-width: 1300px) {
+    #containerSobre{
+        gap: 10rem;
+    }
+    #imgSobre {
+        width: 400px;
+    }
+}
+@media(max-width: 1024px) {
+    #containerSobre{
+        gap: 5rem;
+    }
+    #textSobre h1 {
+        font-size: 2rem;
+    }
+    #textSobre p {
+        font-size: 1rem;
+    }
+    #imgSobre {
+        width: 350px;
+    }
+}
+@media(max-width: 768px) {
+    #textSobre h1 {
+        font-size: 2.3rem;  
+    }
+    #textSobre p {
+        font-size: 1.3rem;
+    }
+    #imgSobre {
+        display: none;
+    }
+}
+
+@media(max-width: 425px) {
+    #textSobre h1 {
+        font-size: 2.1rem;  
+        text-align: center;
+    }
+    #textSobre p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
 }

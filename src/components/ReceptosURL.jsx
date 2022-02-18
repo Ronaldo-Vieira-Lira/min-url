@@ -51,7 +51,8 @@ export default function ReceptorURL() {
                         <input type="text" placeholder="Cole o link aqui! " id="textURL" />
 
                         <button type="button"
-                            onClick={() => {
+                            onClick={(e) => {
+                                e.preventDefault()
 
                                 var textoUrl = document.getElementById("textURL").value;
 
@@ -85,8 +86,8 @@ export default function ReceptorURL() {
 
                         <input type="text" value={minURL?.full_short_link} id="textcopy"/>
 
-                        <button type="button" onClick={() => {
-
+                        <button type="button" onClick={(e) => {
+                            e.preventDefault()
                             const sistCopy = document.getElementById("textcopy")
                             sistCopy.select();
                             sistCopy.setSelectionRange(0, 9999)

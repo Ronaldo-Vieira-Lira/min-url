@@ -93,3 +93,21 @@
 .caixaInputs button:hover {
     filter: drop-shadow(0 0 5px #03A696);
 }
+
+@media(max-width: 425px) {
+    #contReceptor {
+        padding: 1rem;
+    }
+    .caixaInputs {
+        flex-direction: column;
+    }
+    #textURL, #textcopy {
+        width: 100% !important;
+        height: 3.3rem;
+    }
+    .caixaText p {
+        margin: 0;
+        width: 100%;
+        font-size: 1rem;
+    }
+}

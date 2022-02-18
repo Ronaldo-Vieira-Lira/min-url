@@ -57,10 +57,15 @@
 
 .caixaInputs #textcopy {
     width: 40%;
+    font-weight: bolder;
+    color: #03A696;
 }
 
-#areaCopy {
-    display: none;
+#alerta {
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #FF0000;
 }
 
 .caixaInputs input::placeholder {

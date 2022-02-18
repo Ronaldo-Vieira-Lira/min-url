@@ -3,33 +3,33 @@ import axios from "axios";
 import "../css/Receptor.css";
 
 import Copy from "../imagens/copy.svg";
-import Link from "../imagens/link32.svg";
+import Linkimg from "../imagens/link32.svg";
 
 export default function ReceptorURL() {
     const [maxURL, setMaxURL] = useState()
     const [minURL, setMinURL] = useState()
 
-    const [chave, setChave] = useState(!true)
+    const [funcao, setFuncao] = useState(!true)
+    const [alerta, setAlerta] = useState(!true)
 
+    setTimeout(() => {
+        setAlerta(!true)
+    }, 7000)
+    
     const Api = axios.create({
         baseURL: `https://api.shrtco.de/v2/shorten?url=${maxURL}`,
     })
-
-    const funcaoApi = (valor) => {
+    const funcaoApi = () => {
         Api.get("")
-            .then((response) => setMinURL(response.data.result))
+            .then((response) => {
+                setMinURL(response.data.result)
+            })
             .catch((erro) => {
+                setAlerta(!false)    
                 console.log(`Deu erro ${erro}`)
             })
-        setChave(!true)
-    }
-
-    if (chave === true) {
-        document.getElementById("areaCopy").style.display = "flex"
-    } else {
-
-    }
-
+        setFuncao(!true)
+    };
     return (
 
         <div id="contReceptor">
@@ -37,6 +37,13 @@ export default function ReceptorURL() {
                 <div className="areaURLS">
                     <div className="caixaText">
                         <h1>Cole a URL para ser encurtada</h1>
+                
+                        {
+                            alerta === true ? 
+                            <p id="alerta">
+                                Por favor verifique se a URL digitada está correta.
+                            </p> : null
+                        } 
                     </div>
 
                     <div className="caixaInputs">
@@ -45,17 +52,19 @@ export default function ReceptorURL() {
 
                         <button type="button"
                             onClick={() => {
-                                var textoUrl = document.getElementById("textURL").value
+
+                                var textoUrl = document.getElementById("textURL").value;
+
                                 if(textoUrl == "") {
-                                    console.log("vazio")
+                                    setAlerta(!false)
                                 } else {   
                                     setMaxURL(textoUrl)
-                                    setChave(!false)
+                                    setFuncao(!false)
                                 }
                             }}
-                        > <img src={Link} alt="" /> ENCURTAR </button>
+                        > <img src={Linkimg} alt="" /> ENCURTAR </button>
 
-                        {chave === true ? funcaoApi(maxURL) : null}
+                        {funcao === true ? funcaoApi() : null}
 
                     </div>
 

@@ -5,7 +5,7 @@ header {
     gap: .2rem;
     height: 80px;
     width: 100%;
-    background-color: #282C34;
+    background-color: transparent;
 }
 header h1 {
     color: var(--colorDistaque);

@@ -1,30 +1,78 @@
-#caixaReceptor {
+#contReceptor {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 1rem;
-    background-color: #282C34;
-    padding: 4rem;
+    align-items: center;
+    gap: 3rem;
     width: 100%;
+    padding: 2rem;
+    background-color: #D9D9D9;
 }
 
-#caixaReceptor input {
-    width: 95%;
-    height: 4rem;
-    padding-left: 15px;
-    outline: none;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.2rem;
+.caixaText {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.caixaText h1, .caixaText p {
     font-family: var(--fontFamily);
     color: #000;
 }
 
-#caixaReceptor input::placeholder {
+.caixaText p {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 1.3rem;
+}
+
+.areaURLS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.caixaInputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.caixaInputs input {
+    width: 90%;
+    height: 4rem;
+    padding-left: 15px;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-family: var(--fontFamily);
+    color: #000;
+    background: transparent;
+}
+
+.caixaInputs #textcopy {
+    width: 40%;
+}
+
+#areaCopy {
+    display: none;
+}
+
+.caixaInputs input::placeholder {
     color: #000;
 }
 
-#caixaReceptor button {
-    padding: 0 2rem 0 2rem;
+.caixaInputs button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    padding: 18px 30px;
     border: none;
     border-radius: 8px;
     font-size: 1.4rem;
@@ -34,10 +82,9 @@
     transition: all .4s;
     color: #000000;
     background: var(--colorDistaque);
+
 }
 
-#caixaReceptor button:hover {
+.caixaInputs button:hover {
     filter: drop-shadow(0 0 5px #03A696);
 }
-
-/* linear-gradient( 45deg,#9be15d 0%,#00e3ae 100%) */

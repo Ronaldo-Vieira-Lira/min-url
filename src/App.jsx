@@ -18,23 +18,24 @@ export default function App() {
             <Header />
             <Sobre />
             <ReceptorURL />
+
             <div id="containerMotivos">
-                <Motivos 
-                    img={Link} 
-                    title="Link" 
-                    descricao="Encurte links de qualquer tamanho com o Encurtador"/>
-                <Motivos 
-                    img={Free} 
+                <Motivos
+                    img={Link}
+                    title="Link"
+                    descricao="Encurte links de qualquer tamanho com o Encurtador" />
+                <Motivos
+                    img={Free}
                     title="Gratuito"
-                    descricao="Crie quantos links encurtados quiser e compartilhe"/>
-                <Motivos 
-                    img={Respo} 
+                    descricao="Crie quantos links encurtados quiser e compartilhe" />
+                <Motivos
+                    img={Respo}
                     title="Responsivo"
-                    descricao="Compatível com desktop, tablets e com dispositivos móveis"/>
-                <Motivos 
-                    img={Cadeado} 
+                    descricao="Compatível com desktop, tablets e com dispositivos móveis" />
+                <Motivos
+                    img={Cadeado}
                     title="Seguro"
-                    descricao="Usamos protocolo https com criptografia de dados"/>
+                    descricao="Usamos protocolo https com criptografia de dados" />
             </div>
             <Footer />
         </div>

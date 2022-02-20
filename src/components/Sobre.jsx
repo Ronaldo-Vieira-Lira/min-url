@@ -13,7 +13,7 @@ export default function Sobre() {
                 </p>
             </div>
             
-            <img src={ImgSobre} alt="sobre" id="imgSobre"/>
+            <img src={ImgSobre} alt="Imagem ilustrativa" id="imgSobre"/>
 
         </div>
     )

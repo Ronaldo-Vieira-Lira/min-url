@@ -101,13 +101,13 @@
     .caixaInputs {
         flex-direction: column;
     }
-}
-
-@media(max-width: 425px) {
     #textURL, #textcopy {
         width: 100% !important;
         height: 3.3rem;
     }
+}
+
+@media(max-width: 425px) {
     .caixaText p {
         margin: 0;
         width: 100%;

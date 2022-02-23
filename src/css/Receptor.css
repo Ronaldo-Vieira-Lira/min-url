@@ -95,16 +95,15 @@
 }
 
 @media (max-width: 768px) {
+    #contReceptor {
+        padding: 1rem;
+    }
     .caixaInputs {
         flex-direction: column;
     }
 }
 
 @media(max-width: 425px) {
-    #contReceptor {
-        padding: 1rem;
-    }
-    
     #textURL, #textcopy {
         width: 100% !important;
         height: 3.3rem;

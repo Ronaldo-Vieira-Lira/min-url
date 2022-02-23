@@ -9,7 +9,7 @@ export default function Sobre() {
             <div id="textSobre">
                 <h1>Encurtador de URL</h1>
                 <p>
-                    Encurtador de URL Blinders é uma ferramenta poderosa para encurtar link. Use o nosso Encurtador de link para diminuir uma URL longa e gerar uma nova URL curta. Cole a URL longa na caixa de texto e clique no botão Encurtar.
+                    Encurtador de URL Blynders é uma ferramenta poderosa para encurtar link. Use o nosso Encurtador de link para diminuir uma URL longa e gerar uma nova URL curta. Cole a URL longa na caixa de texto e clique no botão Encurtar.
                 </p>
             </div>
             

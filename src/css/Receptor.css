@@ -94,13 +94,17 @@
     filter: drop-shadow(0 0 5px #03A696);
 }
 
+@media (max-width: 768px) {
+    .caixaInputs {
+        flex-direction: column;
+    }
+}
+
 @media(max-width: 425px) {
     #contReceptor {
         padding: 1rem;
     }
-    .caixaInputs {
-        flex-direction: column;
-    }
+    
     #textURL, #textcopy {
         width: 100% !important;
         height: 3.3rem;

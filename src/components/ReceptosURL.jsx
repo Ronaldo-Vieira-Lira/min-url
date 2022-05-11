@@ -36,7 +36,7 @@ export default function ReceptorURL() {
 
                 <div className="areaURLS">
                     <div className="caixaText">
-                        <h1>Cole a URL para ser encurtada</h1>
+                        <h2>Cole a URL para ser encurtada</h2>
                 
                         {
                             alerta === true ? 
@@ -75,7 +75,7 @@ export default function ReceptorURL() {
 
                     <div className="caixaText">
 
-                        <h1>Sua URL encurtada</h1>
+                        <h2>Sua URL encurtada</h2>
                         <p>
                             Copie o link encurtado e compartilhe em mensagens, textos, publicações, sites e outros locais.
                         </p>

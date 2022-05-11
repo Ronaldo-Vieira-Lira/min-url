@@ -14,7 +14,7 @@
     margin-bottom: 1rem;
 }
 
-.caixaText h1, .caixaText p {
+.caixaText h2, .caixaText p {
     font-family: var(--fontFamily);
     color: #000;
 }
